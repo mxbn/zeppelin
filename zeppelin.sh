@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DOCKER_TAG="mxbn/zeppelin"
+DOCKER_TAG="mxbnai/zeppelin"
 
 if [[ "$(docker images -q $DOCKER_TAG 2> /dev/null)" == "" ]]; then
     mkdir -p logs
