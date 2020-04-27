@@ -1,4 +1,4 @@
-FROM ubuntu:19.10
+FROM ubuntu:20.04
 
 ENV Z_VERSION="0.8.2"
 ENV ZEPPELIN_ADDR="0.0.0.0"
